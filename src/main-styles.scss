@@ -1,0 +1,25 @@
+// Global styles and changing variabes
+
+// import google fonts
+
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Lato&display=swap");
+
+$family-lato: "Lato";
+
+// Update some byl,a stylings
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Global styles for my draggable styles
+// html,
+// body {
+//   height: 100%;
+// }
+
+html {
+  background: url(assets/beauty.jpg);
+  background-size: cover;
+  overflow-y: auto !important;
+}
